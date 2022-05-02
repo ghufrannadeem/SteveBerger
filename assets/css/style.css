@@ -1,0 +1,127 @@
+/* Global Box-sizing
+------------------------------------*/
+body { background: #fff; font-weight: 400; font-family: 'Poppins', sans-serif; font-style: normal; font-size: 16px; line-height: 24px; color: #3e3b37; padding: 0; margin: 0px; position: relative; }
+p { font-weight: 400; font-family: 'Poppins', sans-serif; font-style: normal; font-size: 16px; line-height: 24px; color: #3e3b37; padding: 0; margin: 0 0 30px 0; }
+ul { list-style: none;margin: 0; padding: 0;  }
+li { list-style: none; }
+h1, h2, h3, h4, h5, h6 {font-family: 'Poppins', sans-serif;padding: 0;margin: 0;}
+a, span, i { display:  inline-block; }
+a, a:hover, a:visited { text-decoration: none; }
+a:focus, span:focus, button:focus, li, div, input, * { outline: none; }
+img, a img { display: inline-block; max-width: 100%; height: auto; }
+*, *:after, *:before { padding:0; margin:0; list-style:none; border:none; box-sizing:border-box; }
+.clearfix:before, .gform_wrapper:before, ul:before,
+.clearfix:after, .gform_wrapper:after, ul:after { content:''; display:table; }
+.clearfix:after, .gform_wrapper:after, ul:after { clear:both; }
+.clearfix, .gform_wrapper, ul { *zoom:1; }
+.defaultBtn {font-family: 'Poppins', sans-serif;padding: 0px 30px;margin: 0;font-size: 15px;line-height: 50px;color: #040015;text-transform: uppercase;display: inline-block;margin-top: 35px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#443caa+1,272364+100 */ /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* IE6-9 */background: #ffffff;transition: all ease 0.3s;letter-spacing: 0.5px;font-weight: 400;border-radius: 50px;/* box-shadow: 0 0 10px white;*/ border: 1px solid #fff;; }
+.defaultBtn:hover {color: #fff;background: transparent;}
+.borderBtn { border: 1px solid #deb24d;; padding: 0px 50px; line-height: 50px; border-radius: 0px; font-size: 16px; font-weight: 400; color: #deb24d; transition: all 0.3s ease-in; text-transform: uppercase;}
+.borderBtn:hover { color: #fff; background-color: #deb24d; }
+.defaultBtn + .defaultBtn { background-color: transparent; color: #fff; margin-left: 10px;; }
+.defaultBtn + .defaultBtn:hover { background-color: white; color: #04000a; }
+.shadowImg img {box-shadow: -45px -45px 0px #f8f0db;}
+section { padding: 100px 0px;;}
+h2 { font-size: 45px; font-weight: 300; padding: 25px 0; margin: 0px; color: #3e3b37;;  }
+
+
+.longEnough { height: 210px; width: 100%; overflow: auto; padding: 0 0 0 20px; margin-bottom: 20px; }
+.mCS-dark.mCSB_scrollTools .mCSB_draggerRail { background-color: #170b51; background-color: #170b51; }
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar { background-color: #ce1a76; background-color: #ce1a76; }
+
+.topBg { background-color: #3e3b37;;     padding: 0;}
+.topBg p { font-size: 14px; font-weight: 400; color: #bebaaa; padding: 0px; margin: 0px;; }
+.topBg .topBtn { background-color: #54ac39; margin-left: 50px; padding: 12px 0px; display: block; text-align: center; color: #fff; font-size: 15px;;}
+
+.header { background-color: #f3fbf0;}
+.header .align-items-center { min-height: 155px;}
+.header .mainMenu {}
+.header .mainMenu ul { display: flex; justify-content: flex-end; align-items: center; }
+.header .mainMenu ul li { font-size: 16px; font-weight: 400; color: #3e3b37;; }
+.header .mainMenu ul li a {color: #3e3b37;padding: 15px;position: relative;}
+.header .mainMenu ul li a:before { position: absolute; left: 0px; right: 0px; margin: auto; bottom: 0px; width: 0; height: 2px; background-color: #54ac39; content: ''; transition: 0.3s; }
+.header .mainMenu ul li:hover a:before { width: 100%;;}
+.header .mainMenu ul li + li { margin-left: 30px; }
+
+.bannerSec { background: url(../images/banner.png) center top no-repeat;     padding: 0; }
+.bannerSec .align-items-center { min-height: 755px;;}
+.bannerSec .banTxt h1 { font-size: 55px; font-weight: 600; color: #fff; padding: 0px; margin: 0px;;}
+.bannerSec .banTxt p { padding: 0px; margin: 25px 0px; font-weight: 600; color: #fff;; }
+.bannerSec .banTxt a { background-color: #ff8806; text-align: center; font-size: 16px; font-weight: 500; color: #fff; padding: 0 50px; line-height: 60px;; margin: 0px; transition: 0.3s; }
+.bannerSec .banTxt a:hover { background-color: #54ac39; }
+
+.servSec {}
+.servSec .serList { margin-top: 110px;;}
+.servSec .serList ul { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; }
+.servSec .serList ul li { width: 25%; margin: 0 0 70px 0; text-align: center;     transition: 0.3s; }
+.servSec .serList ul li img { display: block; margin: auto; margin-bottom: 25px;; }
+ 
+.associateSec {}
+.associateSec .associateImg {}
+.associateSec .associateTxt p  { margin: 0 0 10px; font-size: 14px; color: #3e3b37;}
+
+.teamSec {}
+.teamSec .teamBg { background-color: #f3fbf0; margin-top: 35px;; }
+.teamSec .teamBg h3 { font-size: 20px; font-weight: 300; color: #3e3b37; padding: 0px; margin: 0 0 30px;; }
+.teamSec .teamBg h3 span { display: block; font-size: 12px; ;}
+.teamSec .teamBg p { font-size: 14px;; margin: 0px; }
+.teamSec .allClinic { background-color: #ff8806; text-align: center; font-size: 16px; font-weight: 500; color: #fff; padding: 0 0px; line-height: 60px; margin: 50px auto 0; transition: 0.3s; display: block; max-width: 260px; }
+.teamSec .allClinic:hover { background-color: #54ac39; }
+
+.testiSec { background-color: #f3fbf0;;}
+.testiSec .testiBox { background-color: white; padding: 45px; margin-top: 50px;; }
+.testiSec .testiBox p { font-size: 16px; color: #3e3b37; font-weight: 300; font-style: italic; line-height: 35px; padding: 35px 0; margin: 0px;; }
+.testiSec .testiBox ul { display: flex; justify-content: flex-start; align-items: center; }
+.testiSec .testiBox ul li {}
+.testiSec .testiBox ul li h4 { font-size: 20px; }
+.testiSec .testiBox ul li p { padding: 0px; color: #7f8288; font-size: 14px; margin: 0; }
+.testiSec .testiBox ul li + li { margin-left: 20px;}
+
+
+
+.articleSec {}
+.articleSec .articleBox { margin-top: 50px;;}
+.articleSec .articleBox h4 { font-size: 16px; font-weight: 400; color: #3e3b37; margin: 30px 0 30px 0px; padding: 0 0 0 45px; position: relative; }
+.articleSec .articleBox h4:before { background-color: #ff8806; width: 32px; height: 2px; position: absolute; content: ''; left: 0; bottom: 0; }
+.articleSec .articleBox h4 span { color: #c1c1c0;;}
+.articleSec .articleBox h3 { font-size: 25px; font-weight: 300; padding: 0px; margin: 0px;; }
+
+
+.bookAppointSec { background: #f3fbf0 url(../images/location.png) left top no-repeat; background-size: contain;     padding: 0; }
+.bookAppointSec .align-items-center { min-height: 950px;;}
+
+.field {margin: 0 0 30px 0px;position: relative;}
+.field input[type="text"], .field input[type="email"], .field textarea { padding: 15px 0; border: 0px; border-bottom: 1px solid #000; background: none; width: 100%;; }
+.field textarea { min-height: 100px; resize: none;}
+.field input[type="submit"] { display: block; width: 100%; background: #54ac39; line-height: 60px; font-size: 16px; font-weight: 500; color: #fff; cursor: pointer; transition: 0.3s; }
+.field input[type="submit"]:hover { background-color: #ff8806; }
+
+
+.footer { background-color: #1f221e; padding: 100px 0 0 0;}
+.footer h4 {font-size: 20px; font-weight: 400; color: #fff; padding: 0px; margin: 0 0 30px;;}
+.footer p { font-size: 14px; font-weight: 300; color: #fff; padding: 0px; margin: 0 0 20px; }
+.footer ul {}
+.footer ul li { font-size: 14px; font-weight: 300; color: #fff; padding: 0px; margin: 8px 0; }
+.footer ul li a {color: #fff; transition: 0.3s; }
+.footer ul li a:hover {color: #f57400; }
+.footer .field input[type="text"] { border-color: white; color: white;}
+.footer .field input[type="submit"] {position: absolute;top: 20px;background: url(../images/newsletter_submit.png) left top no-repeat;width: 30px;height: 30px;right: 0;}
+
+
+.footer .copyTxt { border-top: 1px solid #40443e; padding: 15px 0px; margin-top: 50px;;}
+.footer .copyTxt p { padding: 0px; margin: 0px;;}
+.footer .copyTxt a { font-size: 30px; margin: 0 5px; color: #545454; }
+
+
+/* Responsive
+------------------------------------*/
+@media only screen and (min-width: 1200px){
+	.container { max-width: 1290px;}
+}
+@media only screen and (max-width: 1366px){}
+@media (min-width:1170px) and (max-width: 1281px) {}
+@media (min-width:1000px) and (max-width: 1169px) {}
+@media (min-width: 768px) and (max-width: 999px) {}
+@media (max-width: 767px) {}
+@media (max-width: 320px) {}
